@@ -2,6 +2,8 @@
 
 My personal portfolio website, built with React. It has a short intro about me, my skills and tools, the projects I've built, and a blog.
 
+**Live:** https://myportfolio-neon-one-99.vercel.app
+
 ![Portfolio](Images/portfolio.png)
 
 ## Pages
