@@ -4,8 +4,24 @@ export const DEVTO_USERNAME = "adhiinsvy13";
 
 const API = "https://dev.to/api/articles";
 
+// Dev.to caches this list for up to two days and ignores unknown query
+// parameters, so a new post could take that long to appear. Changing
+// `per_page` once an hour gives a fresh, shared answer each hour instead.
+function listUrl() {
+  const hour = Math.floor(Date.now() / 3600000);
+  const perPage = 100 + (hour % 800);
+  return `${API}?username=${DEVTO_USERNAME}&page=1&per_page=${perPage}`;
+}
+
 export async function fetchDevtoPosts() {
-  const res = await fetch(`${API}?username=${DEVTO_USERNAME}&per_page=30`);
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 20000);
+  let res;
+  try {
+    res = await fetch(listUrl(), { signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
   if (!res.ok) throw new Error("Could not load posts");
   const articles = await res.json();
   return articles.map((a) => ({
