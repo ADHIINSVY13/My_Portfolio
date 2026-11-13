@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+
 
 function Home2() {
   return (
@@ -14,43 +14,24 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              reliable, scalable products. I enjoy exploring new technologies,
+              solving challenging problems, and building projects that combine creativity with functionality.
+              <br />
+              <br />I'm proficient in <i><b className="purple">Java and Python</b></i>, with hands-on experience in <i>
+              <b className="purple">JavaScript, C, HTML, CSS, Tailwind CSS, Bootstrap and React.js</b></i>. 
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              My toolkit also includes <i>
+                <b className="purple">Flask, NumPy, Pandas, Scikit-learn, Matplotlib, BeautifulSoup, Selenium and SQL</b></i>, along with <i>
+                  <b className="purple">Git, GitHub, Linux, and Docker</b></i> for development and version control.
+
+<br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
+           
               <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            
           </Col>
         </Row>
       </Container>
