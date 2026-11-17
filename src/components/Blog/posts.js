@@ -2,6 +2,23 @@
 // `slug` is used in the URL (/blog/<slug>), `content` is an array of paragraphs.
 const posts = [
   {
+    slug: "designing-and-testing-baalkavach",
+    title: "Designing and Testing BaalKavach: Safer School Bus Mornings",
+    date: "2026-11-15",
+    tags: ["Design", "Testing", "Product", "Client Work"],
+    summary:
+      "My role on BaalKavach, a student transport safety platform for Indian schools, and what makes it different from a bus tracker.",
+    content: [
+      "BaalKavach is a student transport safety platform for Indian schools. It gives parents live journey status, honest ETAs and instant not-boarded alerts, and it works from the driver's phone, so there is no GPS box to install on the bus. My part in the project was design and testing.",
+      "The problem it tackles is something almost every parent knows: the 7 AM scramble. Is the bus late? Did my child board? Is the driver reachable? According to the BaalKavach survey of 109 parents, 87% want live tracking, 81% have none today, and 38% say their child has missed the bus at least once.",
+      "What I find interesting about the product is that it goes beyond showing where the bus is. A parent sees whether their child has boarded, is on the way or has been dropped, and how many minutes remain until their own stop. If something goes wrong, such as a child not boarding, the school and the parent are told straight away.",
+      "A lot of the thinking went into making things easy for the driver, who is busy and driving. Everyone counts as picked up by default, and the driver only taps the students who are not there. Fewer taps means fewer mistakes, and it means the system works on a normal phone with nothing to install on the bus.",
+      "Schools get a live board that shows every bus, how many students are on board, and the alerts that need attention first. The parent app also has a Hindi voice assistant, because many parents are more comfortable asking in Hindi than navigating screens in English.",
+      "Designing for three groups of people at once, parents, drivers and school staff, meant that every screen had to be clear about who it was for and what that person needs in a few seconds. Testing meant going through the real morning flows, like boarding, late buses, absences and stale tracking, to check that each one behaves sensibly and that the right person is told at the right time.",
+      "You can see BaalKavach live from the Projects page.",
+    ],
+  },
+  {
     slug: "building-speek-programming-language",
     title: "Building SPEEK: My Own Programming Language in Java",
     date: "2026-11-10",

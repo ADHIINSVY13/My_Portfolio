@@ -10,6 +10,20 @@ import baalkavach from "../../Assets/Projects/baalkavach.png";
 
 const projects = [
   {
+    imgPath: baalkavach,
+    title: "BaalKavach",
+    description:
+      "A student transport safety platform for Indian schools. Parents get live journey status, honest ETAs and instant not-boarded alerts, while drivers and schools run everything from the driver's phone, with no GPS box on the bus. Includes a Hindi voice assistant in the parent app. My role: design and testing.",
+    demoLink: "https://baalkavach.in/",
+  },
+  {
+    imgPath: dhakate,
+    title: "Dhakate Physiotherapy & Neuro Rehab Center",
+    description:
+      "A website for a neuro rehabilitation center in Bhopal, with treatments, gallery, testimonials, FAQ, contact details and an appointment booking button.",
+    demoLink: "https://dhakatephysio.in/",
+  },
+  {
     imgPath: speek,
     title: "SPEEK Interpreter",
     description:
@@ -24,20 +38,6 @@ const projects = [
       "A responsive lyrics-search interface featuring multiple navigation bars, smooth UI transitions, and an interactive guitar element.",
     ghLink: "https://github.com/ADHIINSVY13/MusicVerse",
     demoLink: "https://push-vm51.onrender.com/",
-  },
-  {
-    imgPath: dhakate,
-    title: "Dhakate Physiotherapy & Neuro Rehab Center",
-    description:
-      "A website for a neuro rehabilitation center in Bhopal, with treatments, gallery, testimonials, FAQ, contact details and an appointment booking button.",
-    demoLink: "https://dhakatephysio.in/",
-  },
-  {
-    imgPath: baalkavach,
-    title: "BaalKavach",
-    description:
-      "A student transport safety platform for Indian schools. Parents get live journey status, honest ETAs and instant not-boarded alerts, while drivers and schools run everything from the driver's phone, with no GPS box on the bus. Includes a Hindi voice assistant in the parent app. My role: design and testing.",
-    demoLink: "https://baalkavach.in/",
   },
   {
     imgPath: toolnest,
