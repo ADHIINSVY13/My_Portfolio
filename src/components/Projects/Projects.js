@@ -6,6 +6,7 @@ import speek from "../../Assets/Projects/speek.png";
 import musicverse from "../../Assets/Projects/musicverse.png";
 import dhakate from "../../Assets/Projects/dhakate.png";
 import toolnest from "../../Assets/Projects/toolnest.png";
+import baalkavach from "../../Assets/Projects/baalkavach.png";
 
 const projects = [
   {
@@ -30,6 +31,13 @@ const projects = [
     description:
       "A website for a neuro rehabilitation center in Bhopal, with treatments, gallery, testimonials, FAQ, contact details and an appointment booking button.",
     demoLink: "https://dhakatephysio.in/",
+  },
+  {
+    imgPath: baalkavach,
+    title: "BaalKavach",
+    description:
+      "A student transport safety platform for Indian schools. Parents get live journey status, honest ETAs and instant not-boarded alerts, while drivers and schools run everything from the driver's phone, with no GPS box on the bus. Includes a Hindi voice assistant in the parent app.",
+    demoLink: "https://baalkavach.in/",
   },
   {
     imgPath: toolnest,
