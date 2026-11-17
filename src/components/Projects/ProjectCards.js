@@ -12,24 +12,19 @@ function ProjectCards(props) {
       )}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text>
-          {props.description}
-        </Card.Text>
-        {props.ghLink && (
-          <Button variant="primary" href={props.ghLink} target="_blank">
-            <BsGithub /> &nbsp;GitHub
-          </Button>
-        )}
-        {props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: props.ghLink ? "10px" : "0" }}
-          >
-            <CgWebsite /> &nbsp;Demo
-          </Button>
-        )}
+        <Card.Text>{props.description}</Card.Text>
+        <div className="card-actions">
+          {props.ghLink && (
+            <Button variant="primary" href={props.ghLink} target="_blank">
+              <BsGithub /> &nbsp;GitHub
+            </Button>
+          )}
+          {props.demoLink && (
+            <Button variant="primary" href={props.demoLink} target="_blank">
+              <CgWebsite /> &nbsp;Demo
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
