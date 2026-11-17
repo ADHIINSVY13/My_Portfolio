@@ -36,7 +36,7 @@ const projects = [
     imgPath: baalkavach,
     title: "BaalKavach",
     description:
-      "A student transport safety platform for Indian schools. Parents get live journey status, honest ETAs and instant not-boarded alerts, while drivers and schools run everything from the driver's phone, with no GPS box on the bus. Includes a Hindi voice assistant in the parent app.",
+      "A student transport safety platform for Indian schools. Parents get live journey status, honest ETAs and instant not-boarded alerts, while drivers and schools run everything from the driver's phone, with no GPS box on the bus. Includes a Hindi voice assistant in the parent app. My role: design and testing.",
     demoLink: "https://baalkavach.in/",
   },
   {
