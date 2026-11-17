@@ -160,9 +160,14 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 3rem !important;
+  width: 3rem !important;
 }
+
+.navbar-brand.d-flex {
+  align-items: center;
+}
+
 
 .navbar-nav .nav-link {
   color: white !important;
